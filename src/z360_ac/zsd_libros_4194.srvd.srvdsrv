@@ -1,4 +1,4 @@
-@EndUserText.label: 'Libros'
+    @EndUserText.label: 'Libros'
 define service ZSD_LIBROS_4194 {
   expose zcds_libros_4194   as Libros;
   expose zcds_clientes_4194 as Clientes;

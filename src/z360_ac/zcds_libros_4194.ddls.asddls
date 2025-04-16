@@ -7,6 +7,8 @@
     sizeCategory: #S,
     dataClass: #MIXED
 }
+@Search.searchable: true
+
 
 @Metadata.allowExtensions: true
 
@@ -19,6 +21,7 @@ define view entity zcds_libros_4194
   key Libros.id_libro  as IdLibro,
       Libros.bi_categ  as Categoria,
       Libros.titulo    as Titulo,
+      
       Libros.autor     as Autor,
       Libros.editorial as Editorial,
       Libros.idioma    as Idioma,
