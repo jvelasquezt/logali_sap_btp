@@ -32,7 +32,7 @@ define view entity Z360_R_BOOKING_4194
       booking_status as BookingStatus,
       //      LOCAL ETAG FIELD
       @Semantics.systemDateTime.localInstanceLastChangedAt: true
-      last_change_at as LastChangeAt,
+      local_last_changed_at as LocalLastChangedAt,
       _Travel,
       _BookingSupplement,
       _Customer,
